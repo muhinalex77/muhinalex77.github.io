@@ -1,0 +1,44 @@
+@import url(reset.css);
+*{
+	box-sizing:border-box;
+}
+body{
+	color:#ffffff;
+	font-size:30px;
+}
+.clear:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.clear { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clear { display: block; }
+/* close commented backslash hack */
+.header{
+	background:#DC4AF1;
+	height:200px;
+	margin-bottom:10px;
+}
+.content{
+	background:#DC4AF1;
+	min-height:500px;
+	width:70%;	
+	float:left;
+}
+.sidebar{
+	background:#DC4AF1;
+	min-height:500px;
+	width:30%;	
+	float:left;
+	padding-left:10px;
+}
+.footer{
+	background:#DC4AF1;
+	height:200px;
+	margin-top:10px;
+}

@@ -1,0 +1,22 @@
+			<div class="header">
+				<div class="inner-header">
+					<div class="header-content">
+						<div class="inner-header-content clear">
+							<div class="logo left">
+								<div class="inner-logo">
+									<h1><a href="#"><span class="red-letter">c</span>herry</a></h1>
+									<h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h6>
+								</div>	
+							</div>
+							<div class="search right">
+								<div class="inner-search">
+									<form action="#" method="POST">
+										<input type="text" name="search" placeholder="Search..."/>
+										<input type="image" src="images/iconSearch.png"  name="submit"/>
+									</form>
+								</div>	
+							</div>
+						</div>
+					</div>	
+				</div>
+			</div>	

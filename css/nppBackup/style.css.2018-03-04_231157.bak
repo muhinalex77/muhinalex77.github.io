@@ -1,0 +1,14 @@
+@import url(reset.css);
+body{
+	color:#ffffff;
+	font-size:30px;
+}
+#header{
+	background:#DC4AF1;
+	height:200px;
+	margin-bottom:10px;
+}
+#content{
+	background:#DC4AF1;
+	min-width:500px;
+}

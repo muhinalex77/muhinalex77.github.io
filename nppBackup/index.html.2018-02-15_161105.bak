@@ -4,9 +4,6 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<title>Creative-Studio</title>
 		<link href="css/style.css" rel="stylesheet" type="text/css"/>
-		<!--[if IE 7]>
-		<link href="css/ie7(1).css" rel="stylesheet" type="text/css"/>
-		<![endif]-->
 	</head>
 	<body>
 		<div id="topLine"></div>
@@ -21,18 +18,18 @@
 					</div>
 					<div class="menu">
 						<ul>
-							<li><a class="aHome" href="index.html">home</a></li>
-							<li><a href="#">about us</a></li>
-							<li><a href="#">portfolio</a></li>
-							<li><a href="#">service</a></li>
-							<li><a href="#">blog</a></li>
-							<li><a href="#">contact us</a></li>
+							<a class="aHome" href="index.html"><li>home</li></a>
+							<a href="#"><li>about us</li></a>
+							<a href="#"><li>portfolio</li></a>
+							<a href="#"><li>service</li></a>
+							<a href="#"><li>blog</li></a>
+							<a href="#"><li>contact us</li></a>
 						</ul>
 					</div>
 				</div>
 				<div id="headerImage">
 					<div class="imgBlackBox">
-						<p>Here's some nice work<a href="#">View portfolio &#187; </a> </p>
+						<p>Here's some nice work<a href="#">View portfolio &#187 </a> </p>
 					</div>
 				</div>
 				<div id="content">
@@ -58,16 +55,16 @@
 				<div id="portfolio">
 					<h2>Our portfolio</h2>
 					<div class="portfolioImage"><img src="images/portfolio_1.jpg" alt="portfolio_1"/>
-						<a href="#">view &#187; </a>
+						<a href="#">view &#187 </a>
 					</div>
 					<div class="portfolioImage"><img src="images/portfolio_2.jpg" alt="portfolio_2"/>
-						<a href="#">view &#187; </a>
+						<a href="#">view &#187 </a>
 					</div>
 					<div class="portfolioImage"><img src="images/portfolio_3.jpg" alt="portfolio_3"/>
-						<a href="#">view &#187; </a>
+						<a href="#">view &#187 </a>
 					</div>
 					<div class="portfolioImage imageMarg0"><img src="images/portfolio_4.jpg" alt="portfolio_4"/>
-						<a href="#">view &#187; </a>
+						<a href="#">view &#187 </a>
 					</div>
 				</div>
 				<div id="bottomRow">
@@ -95,21 +92,19 @@
 						<div id="menuF">
 							<div id="innerMenuF">
 								<ul>
-									<li class="RightBorder"><a href="index.html">home</a></li>
-									<li class="RightBorder"><a href="#">about us</a></li>
-									<li class="RightBorder"><a href="#">portfolio</a></li>
-									<li class="RightBorder"><a href="#">service</a></li>
-									<li class="RightBorder"><a href="#">blog</a></li>
-									<li><a href="#">contact us</a></li>
+									<a class="aHome" href="index.html"><li>home</li></a>
+									<a href="#"><li>about us</li></a>
+									<a href="#"><li>portfolio</li></a>
+									<a href="#"><li>service</li></a>
+									<a href="#"><li>blog</li></a>
+									<a href="#"><li>contact us</li></a>
 								</ul>
-							</div>
-							<div class="clear"></div>
-							<div id="innerCopyR">
-								<p> &#169; 2010 Creative-Studio. All Rights Reserved</p>
+								</div>
+							<div>
+								<p>&copy: 2010 Creative-Studio. All Rights Reserved</p>
 							</div>
 						</div>
-						<div id="logoFooter">
-						</div>
+						
 					</div>
 				</div>
 			</div>

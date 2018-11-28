@@ -61,13 +61,13 @@
 						<a href="#">view &#187; </a>
 					</div>
 					<div class="portfolioImage"><img src="images/portfolio_2.jpg" alt="portfolio_2"/>
-						<a href="#">view &#187; </a>
+						<a href="#">view &#187 </a>
 					</div>
 					<div class="portfolioImage"><img src="images/portfolio_3.jpg" alt="portfolio_3"/>
-						<a href="#">view &#187; </a>
+						<a href="#">view &#187 </a>
 					</div>
 					<div class="portfolioImage imageMarg0"><img src="images/portfolio_4.jpg" alt="portfolio_4"/>
-						<a href="#">view &#187; </a>
+						<a href="#">view &#187 </a>
 					</div>
 				</div>
 				<div id="bottomRow">

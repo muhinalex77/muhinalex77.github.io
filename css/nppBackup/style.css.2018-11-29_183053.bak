@@ -413,7 +413,7 @@ p {
     height: 768px;
     height: 100vh;
     min-height: 800px;
-    background-image: url('https://www.infoport.live/wp-content/uploads/2017/08/pivo-3.jpg');
+    background-image: url('http://ktovkurse.com/wp-content/uploads/2018/04/Two-pints-beer-main.jpg');
     background-position: center top;
     background-size: cover;
     padding: 0;

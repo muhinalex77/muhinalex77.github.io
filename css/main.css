@@ -542,12 +542,10 @@ aside .block + .block {margin-top: 34px;}
 .grey_section {background-color: #F0F0F0;}
 .darkgrey_section {background-color: #303436; color:#fff; }
 .darkgrey_section.parallax {border:none;}
-.dark_section {background-color: #b7e4af; color:#A1A1A1;}
-.color_section {background-color: #32503f; color:#fff;}
+.dark_section {background-color: #4c6b46; color:#A1A1A1;}
+.color_section {background-color: #32503f; color:#fff; background-image: url("https://image.freepik.com/fotos-gratis/textura-de-papel-marrom-para-o-fundo_1373-528.jpg")}
 
-#copyright{
-    color:#000;
-}
+
 #copyright a{
     color:#000;
     font-weight: bold;

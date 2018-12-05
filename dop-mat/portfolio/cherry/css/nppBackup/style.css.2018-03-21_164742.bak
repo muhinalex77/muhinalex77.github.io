@@ -1,0 +1,62 @@
+@import url(reset.css);
+
+.wrapper{
+	max-width:1366px;
+	min-width:980px;
+	margin:0 auto;
+	width:100%;
+}
+.clear{
+	clear:both;
+}
+.left{
+	float:left;
+}
+.right{
+	float:right;
+}
+h1{
+	font-size:30px;
+	font-weight:bold;
+
+}
+h2{
+	font-size:24px;
+}
+h3{
+	font-size:18px;
+}
+h4{
+	font-size:16px;
+}
+h6{
+	font-size:12px;
+	font-weight:bold;
+	color:#c656f7a;
+}
+p{
+	font-size:14px;
+}
+
+.header{
+	background:url(../images/footerBg.png)repeat-x;
+}
+.inner-header{
+	width:980px;
+	margin:0 auto;
+	padding:0 10px;
+}
+.logo h1{
+	color:a5adb8;
+	text-transform:uppercase;
+}
+.red-letter{
+	color:#ae4b5d;
+}
+input[type="text"]{
+	border:1px solid #875f66;
+	border-radius:4px;
+}
+input[type="submit"]{
+	background:url(../images/iconSearch.png) no-repeat;
+}

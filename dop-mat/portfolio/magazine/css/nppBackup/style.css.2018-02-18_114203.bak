@@ -1,0 +1,85 @@
+@import url(reset.css);
+
+.clear{
+	clear:both;
+}
+body{
+	background-image:url(../images/Bg.png);
+	font:13px/1.4 Arial, Verdana, Tahoma, sans-serif;
+
+}
+a{
+	text-decoration:none;
+	color:#5e5e5e;
+}
+
+#header{
+	min-width:960px;
+	max-width:1200px;
+	margin:0 auto;
+	outline:1px solid #090909;
+	margin:0 auto;	
+	overflow:hidden;
+}
+#logo{
+	float:left;
+	width:241px;
+	height:46px;
+	margin:44px 0 42px 10px;
+	
+	}
+#baner{
+	float:right;
+	width:468px;
+	height:60px;
+	margin:34px 10px 32px 0;
+}
+#topNavMenu{
+	background:url(../images/menuBg.png);
+	height:49px;
+	width:100%;
+	min-width:960px;
+}
+#innerNavMenu, #wrapper{
+min-width:960px;
+max-width:1200px;
+margin:0 auto;	
+}
+#innerNavMenu ul li{
+	float:left;
+	margin:15px 4px 16px 16px;
+}
+#innerNavMenu a{
+	text-decoration:none;
+	text-transform:uppercase;
+	font:12px/1 Arial, Verdana, Tahoma, sans-serif;
+	color:#ebebeb;
+	padding:16px 15px;
+}
+#innerNavMenu a:hover{
+	background:url(../images/menuHoverH.png) repeat-x;
+}
+#mainSidebar{
+	width:300px;
+	height:400px;
+	background:#b2b2b2;
+	float:right;
+}
+#mainContent{
+	margin-right:300px;
+}
+.thumbnail{
+	float:left;	
+}
+.thumbnail img{
+	border:3px solid #e0e0e0;
+}
+.postCategories{
+	font-family:Georgia, "Time New Roman", Times, serif;
+	color:#aaaaaa;
+}
+.postCategories a{
+	font-family:Georgia, "Time New Roman", Times, serif;
+	
+
+}

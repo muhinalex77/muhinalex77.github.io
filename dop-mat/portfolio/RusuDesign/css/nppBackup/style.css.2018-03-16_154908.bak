@@ -1,0 +1,43 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i');
+
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+	background:#e6e6e6;
+}
+.wrapper{
+	min-width:960px;
+	max-width:2560px;
+	margin:0 auto;
+	width:100%;
+	
+}
+a{
+	text-decoration:none;
+	color:#777777;
+}
+.header{
+	outline:1px solid #000;
+	width:960px;
+	margin:0 auto;
+}
+.inner-header-content{
+	display:flex;
+	margin:0 10px;
+}
+.logo,.middleText,.headPhone{
+	width:33.3%;
+}
+.middleText{
+	text-align:center;	
+}
+.middleText h3{
+	font-size:26px;
+	font-weight:BLACK;
+	font-style:BLACK'
+	text-transform:uppercase;
+}
+
+.headPhone{
+	text-align:right;
+}

@@ -1,0 +1,9 @@
+@import url(reset.css);
+#header{
+	background:#DC4AF1;
+	height:200px;
+}
+#content{
+	background:#DC4AF1;
+	min-width:500px;
+}

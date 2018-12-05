@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Заголовок страницы</title>
+		<link href="css/style.css" type="text/css" rel="stylesheet" />
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="inner-wrapper">
+				<div class="header size">
+					<div class="inner-header">
+						<div class="header-content ">
+							<div class="inner-header-content">
+								<div class="logo">
+									<div class="inner-logo">
+										<a href="#"><img src="images/headLogo.jpg" alt="logo"/></a>
+									</div>
+								</div>
+								<div class="middleText">
+									<div class="inner-middleText">
+										<h3>design interior</h3>
+										<p><a href="#">proiectare</a> / <a href="#">implementare</a> / <a href="#">coordanare</a></p>
+									</div>
+								</div>
+								<div class="headPhone">
+									<div class="inner-headPhone">
+										<h3>+373 69 953 711</h3>
+										<p><a href="mailto:designrusu@gmail.com">designrusu@gmail.com</a></p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="content">
+						<div class="inner-content">
+							<div class="first-content-wrapper">
+								<div class="inner-first-content-wrapper size">
+									<div class="first-content">
+										<div class="inner-first-content clear">
+											<div class="headerText">
+												<div class="inner-headerText">
+													<h1>Comandă acum  <span class="spanBg">pachetul de design interior</span><br/> și <span>primești gratuit</span> deviza cheltuielilor <br/> pentru mobila viitoarei tale case!</h1>	
+												</div>
+											</div>
+											<div class="timerForm">
+												<div class="inner-timerForm">
+													<div class="timerBox left">
+														<div class="inner-timerBox clear">
+															<div class="timerBox-text left">
+																<div class="inner-timerBox-text">
+																	<h6>Până laz expirarea ofertei au mai rămas:</h6>
+																</div>	
+															</div>
+															<div class="timer">
+																<img src="images/timer.png" alt="timer"/>
+															</div>
+														</div>
+													</div>
+													<div class="formBox">
+													</div>	
+												</div>	
+											</div>
+										</div>	
+									</div>	
+								</div>		
+							</div>		
+						</div>
+				</div>
+			</div>
+			<div class="footer">
+				<div class="inner-footer"></div>
+			</div>
+		</div>
+	</body>
+</html>

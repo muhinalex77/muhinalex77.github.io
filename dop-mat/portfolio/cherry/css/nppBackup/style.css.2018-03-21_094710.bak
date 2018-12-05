@@ -1,0 +1,8 @@
+@import url(reset.css);
+
+
+
+
+p{
+	font-size:12px;
+}

@@ -1,0 +1,37 @@
+@import url(reset.css);
+
+body{
+	font:20pt Arial, Tahoma, Verdana, sans-serif;
+	color:#333333;
+}
+#wrapper{
+	max-width:1200px;
+	min-width:960px;
+}
+#header{
+	width:1100px;
+	margin:0 auto;
+	background:url(../images/headerBg.png);
+	
+}
+.clear{
+	clear:both;
+}
+.left{
+	float:left;
+	display:block;
+}
+.right{
+	float:right;
+	display:block;
+}
+h1{
+	font: 60pt Arial, Tahoma, Verdana, sans-serif;
+	color:#ffffff;
+	}
+.headerContent{
+	padding:50px 50px;
+}
+.headerContent  ul li{
+	color:#ffffff;
+}

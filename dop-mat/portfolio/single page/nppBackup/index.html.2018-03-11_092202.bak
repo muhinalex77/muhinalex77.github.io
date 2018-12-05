@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Заголовок страницы</title>
+		<link href="css/style.css" type="text/css" rel="stylesheet" />
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="header">
+				<div class="inner-header">
+					<div class="logo">
+						<img src="images/logo.jpg" />
+					</div>
+					<h1>Be sure you put your feet <br/>
+					in the right place</h1>
+
+					<div class="headerForm">
+						<form action="#" method="POST">
+							<input type="text" name="text" placeholder="Enter your zip code"/>
+							<div>
+								<img src="images/formImg.jpg"/>
+							</div>
+							<p>This is Photoshop's version  of Lorem Ipsum.</p>
+							<input type="submit" name="submit" value="PRESS ME"/>
+						</form>
+					</div>
+				
+				</div>
+			</div>
+			<div class="content">
+				<div class="inner-content">
+				</div>
+			</div>
+			<div class="footer">
+				<div class="inner-footer">
+				
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

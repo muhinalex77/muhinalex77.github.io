@@ -1,0 +1,197 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Magazine</title>
+		<link href="css/style.css" type="text/css" rel="stylesheet" />
+	</head>
+	<body>
+			<div id="header">
+				<div id="logo">
+					<a href="index.html"><img src="images/logo.png" alt="logotipe"/></a>
+				</div>
+				
+				<div id="baner"> 
+					<a href="#" target="_blank"><img src="images/baner.png"/></a>
+				</div>
+				<div class="clear"></div>
+			</div>	
+			<div id="topNavMenu">
+				<div id="innerNavMenu">
+					<ul>
+						<li><a href="index.html">home</a></li>
+						<li><a href="#">about us</a></li>
+						<li><a href="#">articles</a></li>
+						<li><a href="#">tech</a></li>
+						<li><a href="#">business</a></li>
+						<li><a href="#">entetainment</a></li>
+						<li><a href="#">social</a></li>
+						<li><a href="#">media</a></li>
+						<li><a href="#">contact</a></li>
+					</ul>
+				</div>
+			</div>
+			<div id="wrapper">		
+				<div id="Sidebar">
+						<div id="serchForm">
+							<h3><span>Search</span></h3>
+								<form action="#" method="post">
+									<div class="textField">								
+										<input type="text" value="Search hear..."/>
+									</div>
+									<input type="image" src="images/serchBtn.png" />								
+								</form>
+						</div>
+					<div id="sponsors">
+						<h3><span>Sponsors</span></h3>						
+						<div class="firstRow">	
+								<a href="#" target="_blank" class="left"><img src="images/baner1.jpg" alt="baner1"/></a>
+								<a href="#" target="_blank" class="right"><img src="images/baner2.jpg" alt="baner2"/></a>
+								<div class="clear"></div>
+						</div>
+						<div class="secondRow">	
+								<a href="#" target="_blank" class="left"><img src="images/baner3.jpg" alt="baner3"/></a>
+								<a href="#" target="_blank" class="right"><img src="images/baner4.jpg" alt="baner4"/></a>
+								<div class="clear"></div>
+						</div>
+					</div>
+					<div id="subscribeForm">
+						<h3><span>ride magazine news</span></h3>
+							<form action="#" method="post">
+								<div class="textField">								
+									<input type="text" value="Enter your email..."/>
+								</div>
+								<input type="image" src="images/subscribeBtn.png" />								
+							</form>
+					</div>
+					<div id="categories">
+						<h3><span>categories</span></h3>
+						<div id="innerCat">
+							<div id="leftBar">
+								<ul>
+									<li><a href="#">facebook</a></li>
+									<li><a href="#">youtube</a></li>
+									<li><a href="#">twitter</a></li>
+									<li><a href="#">google plus</a></li>
+									<li><a href="#">how to</a></li>
+									<li><a href="#">apple</a></li>
+									<li><a href="#">social media</a></li>
+									<li><a href="#">tech</a></li>
+									<li><a href="#">entetainment</a></li>
+								</ul>
+							</div>	
+							<div id="rightBar">
+								<ul>
+									<li><a href="#">about</a></li>
+									<li><a href="#">contact us</a></li>
+									<li><a href="#">sitemap</a></li>
+									<li><a href="#">write for us</a></li>
+								</ul>
+							</div>	
+						</div>
+					</div>
+				</div>				
+				<div id="Content">
+					<div class="post">
+						<div class="thumbnail">
+							<img src="images/fotoNews.png" alt="статья 1"/>
+						</div>
+						
+						<div class="postContent">
+							<p class="postCategories"><a href="#">Business</a>  &gt;  <a href="#">Gamification</a></p>
+							<h2><a href="#">The Evolving Role of Social Media in News Organizations [LIVE Q&amp;A]</a></h2>
+							<p class="postPublished">Posted by <a href="#">Charlie</a> 1 Hours ago | <a href="#">30 comments</a></p>
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting 
+								industry. Lorem Ipsum has been the industry's standard dummy text 
+								ever since the 1500s, when an unknown printer took a galley of type 
+								and scrambled it to make a type specimen book. It has survived not 
+								only five centuries, but also the leap into electronic typesetting, 
+								remaining essentially unchanged. It was popularised in the 1960s with 
+								the release of Letraset sheets containing Lorem Ipsum passages, and 
+								more recently with desktop publishing software like Aldus PageMaker 
+								including versions of Lorem Ipsum.</p>
+						</div>
+					</div>
+					<div class="post">
+						<div class="thumbnail">
+							<img src="images/fotoSoldier.png" alt="статья 2"/>
+						</div>
+						
+						<div class="postContent">
+							<p class="postCategories"><a href="#">entetainment</a>  &gt;  <a href="#">gamming</a></p>
+							<h2><a href="#">Battlefield 3 Has Record Opening Weekend Despite Tech Woes</a></h2>
+							<p class="postPublished">Posted by <a href="#">Peters</a> 1 Hours ago | <a href="#">36 comments</a></p>
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting 
+								industry. Lorem Ipsum has been the industry's standard dummy text 
+								ever since the 1500s, when an unknown printer took a galley of type 
+								and scrambled it to make a type specimen book. It has survived not 
+								only five centuries, but also the leap into electronic typesetting, 
+								remaining essentially unchanged. It was popularised in the 1960s with 
+								the release of Letraset sheets containing Lorem Ipsum passages, and 
+								more recently with desktop publishing software like Aldus PageMaker 
+								including versions of Lorem Ipsum.</p>
+						</div>
+					</div>
+					<div class="post">
+						<div class="thumbnail">
+							<img src="images/fotoChild.png" alt="статья 3"/>
+						</div>
+						
+						<div class="postContent">
+							<p class="postCategories"><a href="#">Tech</a>  &gt;  <a href="#">Education</a></p>
+							<h2><a href="#">How 5 Tech Giants Are Giving Back to Education</a></h2>
+							<p class="postPublished">Posted by <a href="#">Stan</a> 1 Hours ago | <a href="#">125 comments</a></p>
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting 
+								industry. Lorem Ipsum has been the industry's standard dummy text 
+								ever since the 1500s, when an unknown printer took a galley of type 
+								and scrambled it to make a type specimen book. It has survived not 
+								only five centuries, but also the leap into electronic typesetting, 
+								remaining essentially unchanged. It was popularised in the 1960s with 
+								the release of Letraset sheets containing Lorem Ipsum passages, and 
+								more recently with desktop publishing software like Aldus PageMaker 
+								including versions of Lorem Ipsum.</p>
+						</div>
+					</div>
+					<div class="post">
+						<div class="thumbnail">
+							<img src="images/fotoApple.png" alt="статья 4"/>
+						</div>
+						
+						<div class="postContent">
+							<p class="postCategories"><a href="#">business</a>  &gt;  <a href="#">Apple</a></p>
+							<h2><a href="#">Apple Gives Its Key Execs $400 Million in Bonuses</a></h2>
+							<p class="postPublished">Posted by <a href="#">Daniel</a> 2 Hours ago | <a href="#">78 comments</a></p>
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting 
+								industry. Lorem Ipsum has been the industry's standard dummy text 
+								ever since the 1500s, when an unknown printer took a galley of type 
+								and scrambled it to make a type specimen book. It has survived not 
+								only five centuries, but also the leap into electronic typesetting, 
+								remaining essentially unchanged. It was popularised in the 1960s with 
+								the release of Letraset sheets containing Lorem Ipsum passages, and 
+								more recently with desktop publishing software like Aldus PageMaker 
+								including versions of Lorem Ipsum.</p>
+						</div>
+					</div>
+					<div class="post">
+						<div class="thumbnail">
+							<img src="images/fotoLike.png" alt="статья 5"/>
+						</div>
+						
+						<div class="postContent">
+							<p class="postCategories"><a href="#">Social media</a>  &gt;  <a href="#">Business</a></p>
+							<h2><a href="#">7 Ways to Create a Memorable Customer Experience With Social Media</a></h2>
+							<p class="postPublished">Posted by <a href="#">Mark</a> 3 Hours ago | <a href="#">155 comments</a></p>
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting 
+								industry. Lorem Ipsum has been the industry's standard dummy text 
+								ever since the 1500s, when an unknown printer took a galley of type 
+								and scrambled it to make a type specimen book. It has survived not 
+								only five centuries, but also the leap into electronic typesetting, 
+								remaining essentially unchanged.</p>
+						</div>
+					</div>
+				</div>
+				<div class="clear"></div>
+				
+			</div>
+	</body>
+</html>

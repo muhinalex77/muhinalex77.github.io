@@ -1,0 +1,10 @@
+@import url(reset.css);
+#wrapper{
+	min-width:960px;
+	max-width:1200px;
+}
+#header{
+	outline:1px solid #090909;
+	margin:0 auto;	
+}
+	

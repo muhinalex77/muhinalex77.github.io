@@ -1,0 +1,7 @@
+@import url(reset.css);
+#wrapper{
+	min-width:960px;
+	max-width:1200px;
+}
+#header{
+	}

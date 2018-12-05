@@ -1,0 +1,307 @@
+@import url(reset.css);
+
+body{
+	background:#282828;
+	font:16px/1.3 Arial, Tahoma, Verdana, sans-serif;
+	color:#333333;
+}
+#wrapper{
+	width:1200px;
+	margin:0 auto;
+	max-width:1200px;
+	min-width:960px;
+}
+#innerWrapper{
+	width:1180px;
+	margin:0 auto;
+}
+#header, #footer{
+	background:#445162;
+}
+.clear{
+	clear:both;
+}
+.left{
+	width:50%;
+	float:left;
+	display:block;
+}
+.right{
+	
+	float:right;
+	display:block;
+}
+h1{
+	text-transform:;
+	font: 60px Arial, Tahoma, Verdana, sans-serif;
+	color:#ffffff;
+	margin-bottom:30px;
+}
+h2{
+	font:30px Arial, Tahoma, Verdana, sans-serif;
+	padding-bottom:24px;
+	color:#445161;
+}
+h3{
+	font:24px Arial, Tahoma, Verdana, sans-serif;
+	padding-bottom:14px;
+	color:#445161;
+}
+input, textarea{
+	outline:none;
+}
+.headerContent, .inner{
+	padding:50px
+}
+.headerContent  ul li{
+	color:#ffffff;
+	margin-top:15px;
+	font-size:20px;
+}
+.headerContent ul li{
+	list-style:url(../images/chek.png);
+	list-style-position:inside;
+}
+#information, #screenShots{
+	
+	background:#ffffff;
+}
+#contentAbout p{
+	margin-top:20px;
+}
+.productP{
+	width:443px;
+	height:245px;
+	background:#445161;
+}
+#advantage, #reviews{
+	background:#f5f5f5;
+}
+.headers{
+	text-align:center;
+}
+.width{
+ 	width:50%;
+}
+#advContent ul li{
+	background:url(../images/plus.png) no-repeat 0 20px;
+	padding-left:35px;
+	padding-top:20px;
+}
+#contentScreen{
+	overflow:hidden;
+}
+.ScrShCont{
+	overflow:hidden;
+	margin-bottom:20px;
+}
+#screenCont p{
+	padding-right:10px;
+}
+#rightScrCont{
+	margin-left:10px;
+}
+.productS{
+	background:#445161;
+	width:200px;
+	height:150px;
+	margin-right:15px;
+}
+.productCircle{
+	margin-right:20px;
+	background:#445161;
+	width:70px;
+	height:70px;
+	border-radius:50px;
+}
+#reviews p{
+	font-size:14px;
+	font-style:italic;
+	margin-bottom:10px;
+	margin-top:10px;
+	margin-right:10px;
+	
+}
+#reviews p span{
+	color:#989898;
+	font-size:14px;
+	
+}
+.reviewsCont{
+	padding-left:30px;
+	padding-right:10px;
+	overflow:hidden;
+	background:url(../images/articleBg.png) no-repeat;
+}
+.cont{
+	padding-left:10px;
+}
+#buy{
+	background:#ffffff;
+}
+#innerBuy{
+
+}
+
+.buy{
+	display:block;
+	width:300px;
+	border-radius:5px;
+	background:#445161;	
+	padding:15px auto;
+	margin:50px 0 0 25px;
+	padding-bottom:20px;
+	
+}
+#buyCont h3{
+	text-align:center;
+	padding-top:10px;
+	color:#ffffff;
+}
+#buyCont h1{
+ 	color:#445162;
+	font-size:40px;
+	text-align:center;
+	padding:10px 0;
+}
+ol{
+	margin-bottom:15px;
+}
+ol li{
+	list-style-type:decimal;
+	list-style-position:inside;
+	color:#ffffff;
+	line-height:1.4;
+}
+#buyCont{
+	height:500px;
+	padding-bottom:40px;
+	display:flex;
+	position:relative;
+}
+.posit{
+	position:absolute;
+	bottom:0;
+}
+#standart{
+	
+	left:0px;
+}
+#premium{
+	left:355px;
+	}
+#lux{
+	right:50px;
+	
+}
+.price{
+	background:#ffffff;
+	margin-left:2px;
+	margin-right:3px;
+	color:#445162;
+}
+.listPos{
+	margin-left:10px;
+	color:
+}
+input[type="button"]{
+	width:260px;
+	height:40px;
+	background:#ffffff;
+	border:none;
+	border-radius:3px;
+	color:#445162;
+	font-size:18px;
+	font-weight:bold;
+}
+.formPos{
+	width:260px;
+	height:40px;
+	margin:0 auto;
+}
+#footerCont{
+	width:830px;
+	margin:0 auto;
+}
+#footer h2{
+	color#ffffff;
+}
+.formCont{
+	position:relative;
+}
+h4{
+	color:#445162;
+	font-size:16px;
+	position:absolute;
+	left:10px;
+	top:14px;
+}
+input[type="text"]{
+size:30;
+font-size:16px;
+color:#445162;
+margin-bottom:20px;	
+width:410px;
+height:40px;
+padding-top:3px;
+padding-left:92px;
+border-radius:3px;
+background:#ffffff;
+border:none;
+}
+textarea{
+	color:#000000;
+	line-height:1.5;
+	font-size:16px;
+	padding-top:10px;
+	padding-left:12px;
+	text-indent:81px;
+	margin-bottom:10px;
+	width:490px;
+	height:170px;
+	border-radius:3px;
+	background:#ffffff;
+	border:none;
+	font-size:16px;
+}
+input[type="submit"]{
+	width:140px;
+	height:40px;
+	background:#ffffff;
+	border:none;
+	border-radius:3px;
+	color:#445162;
+	font-size:18px;
+	font-weight:bold;
+	position:absolute;
+	left:180px;
+}
+#footInfo{
+	float:right;
+	padding-right:50px;
+}
+#contacts ul li{
+	padding-bottom:20px;
+}
+
+#contacts a{
+	padding:10px 30px;
+	text-decoration:none;
+	color:#ffffff;
+}
+.skype{
+	background:url(../images/skype.png) no-repeat 0 5px;
+}
+.isq{
+	background:url(../images/isq.png) no-repeat 0 5px;
+}
+.mail{
+	background:url(../images/mail.png) no-repeat 0 5px;
+}
+.tel{
+	background:url(../images/tel.png) no-repeat 0 5px;
+	margin-left:10px 30px;
+}
+#sochial table tr{
+	padding-left:5px;
+}

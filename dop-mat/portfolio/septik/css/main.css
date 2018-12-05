@@ -1,0 +1,837 @@
+@import url(reset.css);
+body {
+	font-family: "MuseoSansRegular", sans-serif;
+	font-size: 16px;
+	min-width: 320px;
+	position: relative;
+	background: #1e1e26;
+}
+
+*{
+	outline: none;
+}
+.clear:after {
+  visibility: hidden
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;;
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+.clear { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clear { height: 1%; }
+
+.clear { display: block; }
+/* 
+	display: block;
+	display: block;close commented backslash hack */
+
+.left{
+	float:left;
+}
+.right{
+	float:right;
+}
+
+
+
+.wrapper{
+	background: #1e1e26;
+	min-width: 1200px;
+	max-width: 2560px;
+	margin: 0 auto;
+	width: 100%;
+}
+a{
+	text-decoration: none;
+	color: #fff;
+}
+p{
+	color: #fff;
+	font-family:"MuseoSansBold",sans-serif;	
+}
+
+/*HEADER*/
+.top-line{
+	width: 100%;
+	height: 42px;
+	background-color: #fff;
+	padding-top: 15px;
+	}
+.empty{
+	border: 2px solid #000;
+	border-bottom: none;
+	padding-top: 40px;
+	width: 1200px;
+	margin: 0 auto;	
+	
+}
+.empty,
+.header,
+.inner-first-block,
+.second-block,
+.inner-third-block,
+.inner-fourth-block,
+.inner-fifth-block,
+.inner-sixth-block,
+.about-us-block,
+.footer-menu
+{
+	width:1139px;
+	margin: 0 auto;
+	padding-bottom:0px;
+}
+.header{
+	border: 2px solid #fff;
+	border-top: none;
+	padding-top: 48px;
+	border-radius: 3px;
+}
+.inner-header{
+	margin: 0 26px 7px 26px;
+}
+.inner-logo{
+	margin-left: 40px;
+}
+
+.inner-number{
+	margin-top:11px;
+	margin-right: 44px;
+}
+.number p span{
+	font-family: "MuseoSansBold", sans-serif;
+	font-size: 33px;
+	letter-spacing: 0.7px;
+}
+.number p a{
+	text-decoration: underline;
+	float: right;
+	word-spacing: 1px;
+	letter-spacing: 0.8px;
+}
+.menu{
+	margin-top: 48px;
+	text-align: center;
+	padding: 0px 217px;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+.menu li{
+	float: left;
+	font-size: 16px;
+	font-family: "MuseoSansBold",sans-serif;
+	letter-spacing: 0.2px;
+	margin-right: 20px;
+}
+#last-li-top,
+#last-li-bot{
+	margin: 0;
+    position: relative;
+    top: -6px;
+    left: 1px;
+	font-size: 24px;
+}
+/*Houses*/
+.houses{
+}
+.inner-houses{
+	padding: 32px 26px;
+	position: relative;
+	
+}
+/*HOUSE-1*/
+.house-1{
+	width: 50%;
+	margin-top: 78px;
+	position: relative;
+}
+
+.inner-house-1 img{
+	position: relative;
+	top: 1px;
+	left: 0px;
+	
+}
+.xx,
+.wash-machine,
+.toilet,
+.shower,
+.house-container,
+.info-tank{
+	position: absolute;
+}
+.wash-machine p,
+.toilet p,
+.shower p{
+	font-size:16px;
+	font-family: "MuseoSansLight",sans-serif;
+	color:#61616f;
+	line-height:1.3;
+}
+.xx{
+	font-family: "MuseoSansBold",sans-serif;
+	top: -35px;
+	left: 15px;
+	color: #999999;
+	font-size: 31px;
+}
+.wash-machine{
+	top: 77px;
+	left: 15px;
+
+}
+.toilet{
+	top: 52px;
+	left: 406px;
+
+}
+
+.shower{
+	top: 97px;
+	left: 431px;
+}
+.house-container{
+	width: 151px;
+	top:376px;
+	left:39px;
+}
+.info-1{
+	top:-26px;
+	left:236px;
+}
+.info {
+	position: relative;
+	color: #fff;
+	font-size: 21px;
+	word-spacing: 1px;
+	letter-spacing: 0.2px;	color: #fff;
+}
+.info h3{
+	margin-bottom: 17px;
+}
+.info sup{
+	vertical-align: super;
+	font-size:12px;
+}
+.info ul li{
+	background: url(../img/disc.png) no-repeat;
+	font-family: "MuseoSansBold",sans-serif;
+	color: #fff;
+	font-size: 11.5px;
+	margin-bottom: 6px;
+	padding-left: 11px;
+	word-spacing: 2px;
+	letter-spacing: 0.3px;
+	background-position: 4px;
+	}
+/*HOUSE-2*/
+.house-2{
+	height:600px;
+}
+.img-house-2 img{
+	position: relative;
+	top: 80px;
+	left: -10px;	
+}
+.bg-house-2{
+	position: absolute;
+	top: 35px;
+	right: 15px;
+}
+.XXI{
+	position: relative;
+	font-family: "MuseoSansBold",sans-serif;
+	top: -335px;
+	left: 30px;
+	color: #999999;
+	font-size: 31px;
+	color: #999999;
+	font-size: 30px;
+}
+.freedge{
+	width: 137px;
+	height: 238px;
+}
+
+
+.freedge-info{
+	padding-top: 26px;
+}
+	
+.freedge-info h3{
+	line-height: 25px;
+    letter-spacing: 0.9px;
+}
+.freedge-info span{
+	font-family: "MuseoSansBold",sans-serif;
+	font-weight: 900;
+}
+.freedge-info ul li{	
+	background: url(../img/black-disc.png) no-repeat;
+	background-position: 2px;
+	font-family: "MuseoSansBold",sans-serif;
+	color: #000;
+	
+}
+.info-2{
+	color:#000;
+	top: 37px;
+	left: 8px;
+}
+/*FIRST BLOCK*/
+
+.first-block{ ;
+	background: url(../img/bg-container.png) no-repeat;
+	background-position: 25px 61px; ;
+	padding-bottom: 76px;
+}
+.block-note{
+	padding: 110px 0 40px 68px;
+}
+.block-note h1{
+	color: #fff;
+    font-family: "MuseoSansBold",sans-serif;
+    font-size: 30px;
+    line-height: 35px;
+    letter-spacing: 1.1px;
+    word-spacing: -3.8px;
+}
+.block-icon,
+.blcok-btn,
+.second-block-btn{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	margin-bottom: 37px;
+}
+.block-icon img,
+.block-btn
+{
+	text-align: center;
+	margin: auto;
+}
+.block-btn button{
+	font-size: 32px;
+    font-family: "MuseoSansBold", sans-serif;
+    background: url(../img/bg-btn.png);
+    padding: 25px 59px 31px;
+    border: 2px solid #1f1e23;
+    border-radius: 5px;
+	background-repeat-x: repeat;
+}
+/*BLOCK SECOND*/
+
+.second-block{
+	background-color: #29282e;
+	padding: 35px 29px 40px 29px;
+}
+.inner-second-block{
+	background-color: #f1f1f1;
+	border: 5px solid #cfcfcf; 
+	padding: 44px 35px 10px 35px;
+}
+.box{
+	float: left;
+	background-color: #fff;
+	padding: 26px 19px 17px;
+	width: 295px;
+	text-align: center;
+	margin-right: 30px;
+    margin-bottom: 28px;
+}
+.marg-no{
+	margin-right: 0;
+}
+.box h2, h4{
+	font-family: "MuseoSansBold", sans-serif;
+	font-size: 30px;
+	letter-spacing: 0.7px;
+}
+.box h2{
+	margin-bottom: 20px;
+}
+.box-right{
+	padding: 37px 0 0 28px;
+}
+.box-right h4{
+	font-size: 23px;
+	margin-bottom: 12px;
+}
+.box-price{
+	padding-left:16px; 
+}
+.box-price h5{
+	font-size: 20px;
+    font-family: "MuseoSansBold";
+    margin-top: 22px;
+    margin-left: 11px;
+    letter-spacing: 0.3px;
+	position: relative;
+}
+.box-price h5 span{
+	font-size: 13px;
+}
+.box-price h5 img{
+	position: absolute;
+
+}
+.box button{
+	text-transform: uppercase;
+    border: 1px solid #000;
+    border-radius: 3px;
+    background: none;
+    font-size: 12px;
+    font-family: "MuseoSansBold",sans-serif;
+    padding: 13px 40px;
+    margin-top: 28px;
+    letter-spacing: 0.3px;
+}
+.second-block-btn{
+margin-top: 6px;
+}
+.second-block-btn button{
+    margin: 0 auto;
+    font-size: 26px;
+    font-family: "MuseoSansBold", sans-serif;
+    background-color: #fff;
+    padding: 23px 64px 15px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 0px #373737;
+}
+
+
+/*BLOCK THIRD*/
+
+.third-block{
+	background-image: url(../img/bg-block.png);
+	padding-top: 64px;
+	padding-bottom: 130px;
+}
+.inner-third-block{
+background:url(../img/tree.png) no-repeat;
+background-position: center 72px;
+
+}
+.fifth-block-header,
+.third-block-header,
+.fourth-block-header,
+.sixth-block-header{
+	color:#fff;
+	text-align: center;
+	font-family: "MuseoSansBold",sans-serif;
+	font-size: 49px;
+	text-transform: uppercase;
+	margin-bottom: 135px;
+}
+.third-block-content-left,
+.third-block-content-right{
+	width: 50%;
+}
+.third-block-content-right{
+	padding-top: 47px;
+}
+.inner-block-content-left h2{
+	text-align: right;
+	padding-right: 68px;
+}
+.inner-block-content-right h2{
+	text-align: left;
+		padding-left: 59px;
+}
+.inner-block-content-left,
+.inner-block-content-right{
+	font-family: "MuseoSansBold",sans-serif;
+	color:#fff;
+	letter-spacing: 0.4px;
+}
+.text-xl {
+	font-size: 36px;
+	text-transform: uppercase;
+	line-height: 53px;
+	margin-bottom: 84px;
+}
+.text-xs{
+	font-size: 18px;
+	margin-bottom: 94px;
+}
+.third-text{
+	margin-bottom: 73px;
+}
+.fourth-text{
+	margin-bottom: 66px;
+}
+.first-text-right{
+	margin-bottom: 78px;
+}
+.second-text-right{
+	margin-bottom: 72px;
+}
+.third-text-right{
+	margin-bottom:71px; 
+}
+.fourth-text-right{
+	padding-left: 4px;
+}
+.last-text-left,
+.last-text-right{
+	position: relative;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.5px;
+}
+.last-text-left{
+	top: 157px;
+    left: 38px;
+}
+.last-text-right{
+    top: 155px;
+    left: -15px;
+}
+.text-div button{
+	background: #fff;
+    border: none;
+    padding: 20px 16px;
+    position: relative;
+    top: 110px;
+    right: 146px;
+    letter-spacing: -1px;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 53px;
+    font-family: "MuseoSansBold", sans-serif;
+    border-radius: 3px;
+}
+
+    /*FOURTH-BLOCK*/
+
+.inner-fourth-block{
+	width: 1202px;
+	margin-bottom: 126px;
+}
+.fourth-block-header{
+	background-image: url(../img/bg-block.png);
+	background-position: repeat-x;
+	padding-top:76px;
+	margin-bottom: 0;
+}
+.inner-fourth-block-header{
+	padding-bottom: 1px;
+}
+.inner-fourth-block-header,
+.adv-num{
+	padding-bottom: 47px;
+	color: #fff;
+    font-family: "MuseoSansBold",sans-serif;
+    font-size: 48px;
+    line-height: 35px;
+    letter-spacing: 1.1px;
+    word-spacing: -3.8px;
+}
+
+.adv-1{
+	width: 289px;
+	height: 469px;
+	background: url(../img/work-1.jpg) no-repeat;
+}
+
+.adv-2{
+	width: 313px;
+	height: 235px;
+	background: url(../img/work-2.jpg) no-repeat;
+}
+.adv-3{
+	width: 312px;
+	height: 235px;
+	background: url(../img/work-3.jpg) no-repeat;
+}
+.adv-4{
+	width: 288px;
+	height: 235px;
+	background: url(../img/work-4.jpg) no-repeat;
+}
+.adv-5{
+	width: 313px;
+	height: 235px;
+	background: url(../img/work-5.jpg) no-repeat;
+}
+.adv-6{
+	width: 600px;
+	height: 235px;
+	background: url(../img/work-6.jpg) no-repeat;
+}
+.adv-5 .adv-dscrp{
+	top:37px;
+	left:22px;
+}
+.adv-6 .adv-dscrp{
+	top:35px;
+	left:30px;
+}
+.advantage{
+	position: relative;
+	float: left;
+}
+.advantage img {
+	opacity: 1;
+}
+
+.advantage:hover h1{
+	background: #000;
+}
+.advantage:hover p{
+	color:#000;
+	background: #fff;
+}
+.advantage:hover .hover-1{
+	opacity: 0;
+}
+.advantage:hover img{
+	opacity: 0;
+}
+
+.hover-1:hover{
+	opacity: 1;
+}
+.adv-dscrp{
+	padding-right: 20px;
+	position: absolute;
+	top:46px;
+	left:16px;
+}
+.adv-num {
+	margin-right: 8px;
+    margin-bottom: 74px;
+}
+.adv-num h1{
+	padding:11px 13px;
+}
+.adv-text{
+	margin-left: 60px;
+	padding-top: 11px;
+    padding-right: 10px;
+    letter-spacing: 0.2px;
+    line-height: 19px;
+}
+/*FIFTH BLOCK*/
+.fifth-block{
+	padding-bottom: 87px;
+}
+.fifth-block-header,
+.sixth-block-header{
+	margin-bottom: 39px;
+}
+.
+.doc-box{
+	text-align: center;
+	width: 20%;
+}
+.inner-doc-box{
+	margin-left: 12px;
+}
+.doc-arrow-left,
+.doc-arrow-rigt{
+	width: 5%;
+}
+.inner-doc-arrow-left,
+.inner-doc-arrow-right{
+	margin-top: 136px;
+    margin-left: 5px;
+}
+.doc-arrow-right{
+	margin-left: 31px;
+}
+.inner-doc-arrow-right{
+	text-align: right;
+}
+/*SIXTH BLOCK*/
+.inner-sixth-block{
+	width: 1199px;
+	margin-bottom: 8px;
+	position: relative;
+}
+
+.sixth-block-header{
+	padding-left: 27px;
+}
+.sixth-content-wrapper{
+	background-color: #fff;
+}
+
+.sixth-content-text,
+.changer{
+	position: absolute;
+}
+.image-work{
+	height: 478px;
+}
+.sixth-content-text{
+	margin-left: 98px;
+    margin-top: 74px;
+	color: #000;
+    font-family: "MuseoSansBold",sans-serif;
+    word-spacing: -3.8px;
+}
+.sixth-content-text h1{
+	font-size: 40px;
+	margin-bottom: 45px;
+	line-height: 48px;
+    letter-spacing: 1px;
+}
+.sixth-content-text p{
+	font-size: 19px;
+	color:#000;
+	letter-spacing: 0.9px;
+	line-height: 1.25;
+}
+.sixth-content-text p span,
+.sixth-content-text h1 span{
+    background-color: rgba(255,255,255,0.7);
+}
+.changer{
+    bottom: 21px;
+    left: 272px;
+}
+.box-1{
+	float:left;
+	margin-right: 16px;
+}
+.inner-black-arrow-right{
+	position: absolute;
+    right: 110px; 
+}
+.black-arrow-right,
+.black-arrow-left{
+	margin-top: 232px;
+	margin-left: 35px;
+}
+
+/*FOOTER BLOCK*/
+
+.footer{
+	background: url(../img/bg-end.png) no-repeat;
+	background-position: center;
+	height: 847px;
+}
+.inner-about-us{
+	position: relative;
+}
+.aboutUs-note{
+	position: absolute;
+	font-family: "MuseoSansBold",sans-serif;
+
+}
+.aboutUs-header{
+	position: absolute;
+    font-size: 48px;
+    color: #fff;
+    top: 194px;
+    left: 431px;
+    text-transform: uppercase;
+    line-height: 51px;
+    letter-spacing: 0.5px;
+}
+.aboutUs-note p{
+	font-size: 20px;
+}
+.first-note,
+.second-note,
+.third-note,
+.fourth-note,
+.fifth-note,
+.sixth-note{
+	position: absolute;
+	line-height: 1.2;
+    letter-spacing: 0.4px;
+
+}
+.first-note{
+	top: 79px;
+    left: 285px;
+    width: 171px;
+}
+
+.second-note{
+	top: 265px;
+    left: 22px;
+    width: 263px;
+}
+.third-note{
+	top: 425px;
+    left: 358px;
+    width: 177px;
+}
+.fourth-note{
+    top: 441px;
+    left: 718px;
+    width: 200px;
+}
+.fifth-note{
+    top: 319px;
+    left: 935px;
+    width: 268px;
+}
+.sixth-note{
+	top: 127px;
+    left: 850px;
+    width: 243px;
+}
+/*FOOTER NAV*/
+.footer-nav li{
+	float: left;
+	color:#000;
+	margin-right: 20px;
+}
+.about-us-block{
+	height: 664px;
+}
+.footer-logo{
+	margin-left: 67px;
+}
+.footer-info{
+	padding-top: 12px;
+    font-size: 21px;
+    margin-right: 39px;
+    letter-spacing: 0.6px;
+    line-height: 0.6;
+}
+.footer-info a{
+	font-size: 11px;
+    text-decoration: underline;
+    margin-left: 64px;
+}
+.logo-info{
+	margin-bottom: 39px;
+}
+.footer-menu-nav{
+	margin-left: 219px;
+    letter-spacing: 1.3px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+.footer-nav li a{
+	font-family: "MuseoSansBold",sans-serif;
+	color:#000;
+	}
+.copyrights p{
+	font-size: 15px;
+	font-family: "MuseoSansRegular", sans-serif;
+	color:#000;
+	text-align: center;
+	letter-spacing: 0.6px;
+}

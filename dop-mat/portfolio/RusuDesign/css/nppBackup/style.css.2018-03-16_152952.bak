@@ -1,0 +1,30 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.wrapper{
+	min-width:960px;
+	max-width:2560px;
+	margin:0 auto;
+	width:100%;
+}
+.header{
+	outline:1px solid #000;
+	width:960px;
+	margin:0 auto;
+}
+.inner-header-content{
+	display:flex;
+	margin:0 10px;
+}
+.logo,.middleText,.headPhone{
+	width:33.3%;
+}
+.middleText{
+	text-align:center;
+}
+.headPhone{
+	text-align:right;
+}

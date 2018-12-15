@@ -1,5 +1,0 @@
-@import url(reset.css);
-#header{
-	background:#DC4AF1;
-	height:200px;
-}

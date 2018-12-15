@@ -1,6 +1,0 @@
-@import url(reset.css);
-
-body{
-	max-width:1200px;
-	min-width:960px;
-}

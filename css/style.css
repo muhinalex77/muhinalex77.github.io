@@ -335,7 +335,7 @@ p {
 .parallax-section-8:after {
     content: "";
     position: absolute;
-    /*background: url(../img/assets/dot-pattern.png) repeat;*/
+    background: url(../img/assets/dot-pattern.png) repeat;
     top: 0;
     left: 0;
     bottom: 0;
@@ -357,7 +357,7 @@ p {
 .tp-banner li:after {
     content: "";
     position: absolute;
-    /*background: url(../img/assets/gridtile.png) repeat;*/
+    background: url(../img/assets/gridtile.png) repeat;
     top: 0;
     left: 0;
     bottom: 0;
@@ -420,7 +420,7 @@ p {
     font-weight: 700;
     letter-spacing: 0px;
     text-transform: uppercase;
-    color: #695a5a;
+    color: #ffffff;
 }
 @media (min-width:992px) {
     .home-heading {
@@ -632,7 +632,7 @@ nav {
 }
 .navbar-default .navbar-right {
 	font-family: 'Montserrat', sans-serif;
-	font-size: 12px;
+	font-size: 1.3em;
     font-weight: 700;
     text-transform: uppercase;
 	height: 100%;
@@ -2243,6 +2243,10 @@ textarea {
 }
 .loader { 
 	padding: 0 10px; 
+}
+.loader img{
+     height: 100px;
+    width: 100px;
 }
 acronym { 
 border-bottom:1px dotted #ccc; 

@@ -3269,3 +3269,10 @@ textarea {
 	    margin: -25px -25px 25px -25px
 	}
 }
+
+
+.soc{
+        position: relative;
+    top: -6px;
+    left: 12px;
+}
